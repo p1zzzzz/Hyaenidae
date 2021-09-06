@@ -1,0 +1,49 @@
+captcha:
+  key-long: 6
+  img-width: 240
+  img-height: 80
+jwt:
+  signing-key: Hyena
+  expires-time: 604800
+  buffer-time: 86400
+mysql:
+  path: 
+  config: charset=utf8mb4&parseTime=True&loc=Local
+  db-name: 
+  username: 
+  password: 
+  max-idle-conns: 0
+  max-open-conns: 0
+scrypt:
+  salt: Hyaenidae
+system:
+  env: public
+  addr: 127.0.0.1:8888
+  oss-type: 'qiniu'
+zap:
+  level: info
+  format: console
+  prefix: '[Hyaenidae]'
+  director: log
+  link-name: latest_log
+  showLine: false
+  encode-level: LowercaseColorLevelEncoder
+  stacktrace-key: stacktrace
+  log-in-console: true
+local:
+  path: 'uploads/file'
+aliyun-oss:
+  endpoint: 'oss-cn-chengdu.aliyuncs.com'
+  access-key-id: ''
+  access-key-secret: ''
+  bucket-name: ''
+  bucket-url: ''
+  base-path: 'Hyaenidae'
+qiniu:
+  zone: 'ZoneHuanan'
+  bucket: ''
+  img-path: ''
+  use-https: false
+  access-key: ''
+  secret-key: ''
+  use-cdn-domains: false
